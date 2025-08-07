@@ -238,7 +238,7 @@ export default function Home() {
   const posts = [
     {
       id: 1,
-      image: "/blueLotus.jpg",
+      image: "/chaplin.jpg",
       title: "Chadi chaplin, Palestinian Graphic Novel(coming soon)",
       description: "Chadi is an amateur comedian, living in a Palestinian refugee camp in the city of Bethlehem, who dreams of becoming",
       date: "July 17, 2024",
@@ -408,7 +408,7 @@ export default function Home() {
       <h3 className="font-bold text-lg mb-1 text-center">Tunnel 12</h3>
       <p className="text-sm text-gray-700 mb-2 text-center">by Motaz H Matar</p>
       <p className="whitespace-pre-line">
-        Tunnel 12 is a dreamlike, intergenerational epic that tunnels through decades of memory, war, and longing, linking 1958 Berlin, 1961 Palestine, and the present-day United States.
+        {/* Tunnel 12 is a dreamlike, intergenerational epic that tunnels through decades of memory, war, and longing, linking 1958 Berlin, 1961 Palestine, and the present-day United States.
 
         The story centers on Andrea, a Berlin tailor entangled in a doomed Cold War love affair; Abla, a Palestinian woman caught between her father's trauma and her own forbidden romance; and Emma, a modern-day American student who stumbles upon their buried histories through a book, and a bloodline, she didn’t know she belonged to.
 
@@ -416,7 +416,7 @@ export default function Home() {
 
         Through symbolic crossings and surreal encounters, these women’s stories fold into each other like shadows across time zones, stitching together a haunting mosaic of displacement, inherited memory, and the fragility of love under occupation.
 
-        Blending poetic realism, political metaphor, and lyrical dialogue, Tunnel 12 is less about resolution than revelation. It asks: what if the tunnels we escape into are the same ones that connect us? And when the walls fall, or flood, who do we become on the other side?
+        Blending poetic realism, political metaphor, and lyrical dialogue, Tunnel 12 is less about resolution than revelation. It asks: what if the tunnels we escape into are the same ones that connect us? And when the walls fall, or flood, who do we become on the other side? */}
 
         Coming Soon
       </p>

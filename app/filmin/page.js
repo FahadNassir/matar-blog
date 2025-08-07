@@ -19,7 +19,7 @@ export default function Filmin() {
       {/* Filmin a Book Title */}
       <h1 className="text-2xl mb-6 font-semibold">Filmin&apos; a Book</h1>
       {/* Filmin content will be fetched and inserted here */}
-      <div className="text-gray-400 italic">Each Filmin’ a Book is a cinematic journey told through still images.
+      {/* <div className="text-gray-400 italic">Each Filmin’ a Book is a cinematic journey told through still images.
 
 It’s a new language of storytelling
 one that moves without motion, speaks without sound,
@@ -48,7 +48,7 @@ The Power of Collaboration Between Word & Image: Explore the synergy between a w
 A New Language of Visual Memory: Understand how stories can imprint themselves in your mind like film stills, not linear, but visual and emotional snapshots.
 Resistance Through Creativity: Through tales like Chadi Chaplin, experience how humor, art, and storytelling become tools of cultural resistance and resilience.
 How to Hold a Film in Your Hands: Break the boundaries of traditional media, and witness what happens when cinema takes the form of a book you can touch and keep.
-Upcoming Novels Graphic Novels</div>
+Upcoming Novels Graphic Novels</div> */}
       <Footer />
     </div>
   );

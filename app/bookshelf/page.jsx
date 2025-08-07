@@ -55,7 +55,9 @@ export default function Bookshelf() {
       {/* Bookshelf content will be fetched and inserted here */}
       <div className="space-y-3 mb-10">
         {/* TODO: Insert fetched bookshelf items here */}
-        <div className="text-gray-400 italic">Bookshelf content coming soon...</div>
+        <div className="text-gray-400 italic">
+          <h1></h1>
+        </div>
       </div>
       <Footer />
     </div>
