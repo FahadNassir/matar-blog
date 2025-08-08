@@ -1,37 +1,3 @@
-// import React from 'react'
-// import Image from 'next/image'
-
-// const page = () => {
-//   return (
-//     <div>
-//         Jun 23, 2025
-// About Us
-// by Motaz H Matar
-// <Image src="/motaz.jpg" width={600} height={400} alt='Motaz Matar'/>
-// <p>About Motaz
-// When I write, I’m not trying to make a graphic novel. I’m trying to show something that needs to be seen.
-
-// I can’t finish a panel unless it feels right—like rhythm, silence, and cinema in one frame.
-
-// Filmin’ a Book is where that all comes together. Truth told through images. Satire as survival. Memory as rebellion. A laugh that hits harder than a weapon.
-// </p>
-// <Image src="/luka.jpg" width={600} height={800} alt='Luka'/>
-// <p>
-//     About Luka
-// I didn’t draw just to draw. I was drawn to the quiet power of images. A gesture. A shadow. A frame that feels like a memory. That’s what brought me to Filmin’ a Book.
-
-// I’ve worked on walls, posters, pages. But here, I’m building worlds. Turning words into light and silence. Mood into memory. Sometimes, giving a face to injustice.
-
-// Art school gave me technique. Storytelling gave it meaning. Style changes—vintage or bold, poetic or sharp—but I always ask: what should this moment feel like?
-
-// Working with Motaz, I found something rare. A place where art resists. Where satire is sharp. Where every frame speaks. Every image we make tries to stay with you—not just on the page, but in your mind.
-// </p>
-//     </div>
-//   )
-// }
-
-// export default page
-
 import React from "react";
 import Image from "next/image";
 import Footer from "../components/Footer";

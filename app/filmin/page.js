@@ -2,6 +2,7 @@ import Link from "next/link";
 import Footer from "../components/Footer";
 import Image from "next/image";
 
+
 export default function Filmin() {
   return (
     <main className="min-h-screen bg-white text-black font-serif px-6 py-16 flex flex-col items-center leading-normal text-lg">
@@ -43,18 +44,34 @@ export default function Filmin() {
             2 Books &amp; Counting &mdash; M.H. Matar is a filmmaker-turned-graphic novelist from Palestine. His work explores identity and memory through cinematic storytelling, collaborating with Georgian artist Luka Japaridze to freeze frames of history in ink.
           </p>
           <div className="flex flex-col md:flex-row gap-8 items-center justify-center mb-8">
-            <div className="flex flex-col items-center">
-              <Image src="/blueLotus.jpg" width={300} height={450} alt="Blue Lotus" className="rounded mb-2" />
-              <h4 className="font-bold mb-2">Blue Lotus</h4>
-              <button className="bg-gray-600 text-white px-4 py-2 rounded hover:bg-blue-700">Buy Now</button>
-            </div>
-            <div className="flex flex-col items-center">
-              <Image src="/chaplin.jpg" width={300} height={450} alt="Chadi Chaplin" className="rounded mb-2" />
-              <h4 className="font-bold mb-2">Chadi Chaplin</h4>
-              <button className="bg-gray-600 text-white px-4 py-2 rounded hover:bg-blue-700">Buy Now</button>
-            </div>
-          </div>
         </div>
+  <div className="flex flex-col md:flex-row gap-6 items-center justify-center mb-8">
+  <div className="flex flex-col items-center">
+    <Image src="/blueLotus.jpg" width={300} height={450} alt="Blue Lotus" className="rounded mb-2" />
+    <h4 className="font-bold mb-2">Blue Lotus</h4>
+    <div className="flex flex-col items-center gap-2 w-full">
+      <Link href="/blogs/bluelotus">
+        <button className="bg-gray-600 text-white px-3 py-1.5 rounded hover:bg-black text-base">Read Synopsis</button>
+      </Link>
+      <Link href="https://www.amazon.com/stores/author/B07QQNHYG5" target="_blank" rel="noopener noreferrer">
+        <button className="bg-gray-600 text-white px-3 py-1.5 rounded hover:bg-black text-base">Buy Now</button>
+      </Link>
+    </div>
+  </div>
+  <div className="flex flex-col items-center">
+    <Image src="/chaplin.jpg" width={300} height={450} alt="Chadi Chaplin" className="rounded mb-2" />
+    <h4 className="font-bold mb-2">Chadi Chaplin</h4>
+    <div className="flex flex-col items-center gap-2 w-full">
+      <Link href="/blogs/chaplin">
+        <button className="bg-gray-600 text-white px-3 py-1.5 rounded hover:bg-black text-base">Read Synopsis</button>
+      </Link>
+      <Link href="https://www.amazon.com/stores/author/B07QQNHYG5" target="_blank" rel="noopener noreferrer">
+        <button className="bg-gray-600 text-white px-3 py-1.5 rounded hover:bg-black text-base">Buy Now</button>
+      </Link>
+    </div>
+  </div>
+</div>
+</div>
       </div>
       <Footer />
     </main>
