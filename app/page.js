@@ -295,23 +295,7 @@ export default function Home() {
         </nav>
 
         <h1 className="text-3xl mb-3 font-semibold">M H Matar <br /> Author &amp; Storyteller</h1>
-        <h2 className="text-xl mb-8">Enter my brain!</h2>
-
-        {/* <p className="max-w-2xl mb-10 mx-auto leading-relaxed">
-          <strong>About me in 3 seconds:</strong> Storyteller &amp; teacher.<br /><br />
-          <strong>About me in 10 seconds:</strong> I write allegorical fables to tackle social and political issues facing our world today.<br /><br />
-          <strong><Link href="/about" className="underline">Why I started writing?</Link></strong>
-        </p>
-
-        <div className="rounded-md px-6 py-10 mb-16 w-full flex items-center justify-center">
-          <Image
-            src="/matar.jpeg"
-            alt="Avatar"
-            width={320}
-            height={420}
-          />
-        </div> */}
-
+      <h2 className="text-xl mb-8">Enter my brain!</h2>
        
 <section className="mb-20">
   <div className="flex justify-between items-center mb-4">
@@ -332,13 +316,13 @@ export default function Home() {
       <p className="whitespace-pre-line">
         Diving inwards like a dream, like an ocean.
         It&apos;s devotion.
-        The word is a second chance — your second cup of coffee, your rebirth.
+        The word is a second chance &mdash; your second cup of coffee, your rebirth.
         Diving inwards, where time dilutes:
         Ten hours become one, and one becomes eternity.
         Breaking the shallowness of boredom and routine.
-        Diving inwards — to you, to your love, to the child in me.
+        Diving inwards &mdash; to you, to your love, to the child in me.
         Diving inwards while climbing up those ancient stairs.
-        I freeze — did a moment pass by?
+        I freeze &mdash; did a moment pass by?
         I&apos;m still the child in me.
         I love him, and he loves me.
         I dream with him, and he carries me.
@@ -359,11 +343,11 @@ export default function Home() {
       <h3 className="font-bold text-lg mb-1 text-center">Million Monkeys, Million Typewriters</h3>
       <p className="text-sm text-gray-700 mb-2 text-center">by Motaz H Matar</p>
       <p className="whitespace-pre-line">
-        It&apos;s about the magic and randomness of the universe. I want to see the beauty, the magic, and the randomness of writing and storytelling. It&apos;s like opening a world—unfolding an infinite stream of rivers and clouds.
+        It&apos;s about the magic and randomness of the universe. I want to see the beauty, the magic, and the randomness of writing and storytelling. It&apos;s like opening a world&mdash;unfolding an infinite stream of rivers and clouds.
 
-        Loving life, finding peace in words. Just letting those monkeys dance on the typewriters, unveiling what&apos;s in our souls. Unveiling the temporary time we have on earth—goodness and love, the precious things we hold as humans. Why were we created? Why must we approach life with a sense of unurgency—moment to moment?
+        Loving life, finding peace in words. Just letting those monkeys dance on the typewriters, unveiling what&apos;s in our souls. Unveiling the temporary time we have on earth&mdash;goodness and love, the precious things we hold as humans. Why were we created? Why must we approach life with a sense of unurgency&mdash;moment to moment?
 
-        We de-stress. We live. We enjoy life. We savor the luxury of not going anywhere—just our hands moving on the page. Just our beautiful million monkeys, telling us: fuck money, fuck pride, fuck fame.
+        We de-stress. We live. We enjoy life. We savor the luxury of not going anywhere&mdash;just our hands moving on the page. Just our beautiful million monkeys, telling us: fuck money, fuck pride, fuck fame.
         We are here to create the dance for you.
         You have no idea. You never know. God has a plan for you. God brought us here to give you peace, joy, and love.
 
